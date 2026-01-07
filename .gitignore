@@ -1,0 +1,58 @@
+# Ignore log files
+*.log
+# Ignore temporary files
+*.tmp
+tmp/
+.tmp/
+temp/
+.temp/
+data/
+.data/
+backup/
+.backup/
+.old/
+output/
+.output/
+# Ignore draw.io
+.drawio/
+
+# Ignore environment variable files
+.env
+.env.local
+.env.*.local
+.env/
+
+# document ignore
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+# Ignore IDE specific files
+.vscode/*
+.idea/
+*.sublime-project
+*.sublime-workspace
+# Ignore compiled files
+*.class
+*.obj
+*.exe
+# Ignore package lock files
+package-lock.json
+yarn.lock
+# Ignore coverage reports
+coverage/
+# Ignore test result files
+test-results/
+*.trx
+# Ignore database files
+*.sqlite
+*.db
+
+# Ignore Codex files
+.codex/*
+!.codex/prompts/
+!.codex/commands/
+.claude/
+
+# Ignore Serena files
+.serena/
