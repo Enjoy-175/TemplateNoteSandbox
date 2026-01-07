@@ -1,0 +1,17 @@
+{
+  "recommendations": [
+    // Markdown関連
+    "shd101wyy.markdown-preview-enhanced",
+    "bierner.markdown-mermaid",
+    "bierner.markdown-checkbox",
+    "yzhang.markdown-all-in-one",
+    // common
+    "ms-ceintl.vscode-language-pack-ja",
+    "ms-vscode-remote.remote-containers",
+    // REST Client
+    "humao.rest-client",
+    // Draw.io
+    "hediet.vscode-drawio"
+
+  ]
+}

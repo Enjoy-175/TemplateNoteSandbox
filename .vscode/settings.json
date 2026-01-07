@@ -1,0 +1,24 @@
+{
+    "git.enabled": true,
+    "git.autofetch": true,
+    "git.autorefresh": true,
+    "git.detectSubmodules": true,
+    "files.exclude": {
+        "**/.gradle": true,
+        "**/.gradle*": true,
+        "**/node_modules": true,
+        "**/.git": true,
+        "**/dist": true
+    },
+    "files.watcherExclude": {
+        "**/node_modules/**": true,
+        "**/dist/**": true
+    },
+
+    // 検索設定
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/dist": true,
+        "**/*.lock": true
+    }
+}

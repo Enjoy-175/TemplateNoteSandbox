@@ -29,6 +29,8 @@ __pycache__/
 *.pyc
 # Ignore IDE specific files
 .vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
 .idea/
 *.sublime-project
 *.sublime-workspace
