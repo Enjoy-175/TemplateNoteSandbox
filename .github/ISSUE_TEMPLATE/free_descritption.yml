@@ -1,0 +1,20 @@
+name: 自由記述
+description: 自由な形式でIssueを作成します
+title: "[FREE] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 自由記述フォーム
+        自由な形式でIssueを記述してください。
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 内容
+      description: Issueの内容を自由に記述してください
+      placeholder: |
+        ここに内容を記述してください...
+    validations:
+      required: true

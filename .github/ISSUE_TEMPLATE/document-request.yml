@@ -1,0 +1,62 @@
+name: 💡 ドキュメント要望
+description: ドキュメント作成・更新の要望はこちら
+labels: ["documentation"]
+title: "[DOC] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ドキュメントの要望ありがとうございます。以下の情報を記入してください。
+
+  - type: textarea
+    id: document-name
+    attributes:
+      label: ドキュメント名
+      description: 作成・更新を希望するドキュメントの名称
+      placeholder: 例）API仕様書、ユーザーマニュアル
+    validations:
+      required: true
+
+  - type: textarea
+    id: document-path
+    attributes:
+      label: ドキュメントパス
+      description: 作成・更新すべきドキュメントのパス
+      placeholder: docs/10_system_develop/11_requirements/requirements_defitnition.md
+    validations:
+      required: true
+
+  - type: textarea
+    id: document-vision
+    attributes:
+      label: 目的・ビジョン
+      description: このドキュメントが整備されることでどのようなことを達成したいかを記述してください
+      placeholder: 例）〜の仕様について整理された情報を提供します
+    validations:
+      required: true
+
+  - type: textarea
+    id: essential-items
+    attributes:
+      label: 記載必須項目
+      description: 作成・更新すべきドキュメントの必須項目
+      placeholder: |
+        例）
+        API仕様書に以下の項目を記載する
+        - 認証フロー
+        - エラーハンドリング
+    validations:
+      required: true
+
+  - type: textarea
+    id: excluded-items
+    attributes:
+      label: 記載しない項目
+      description: 今回のスコープから外す項目
+      placeholder: |
+        例）
+        API仕様書では以下の項目は記載しない
+        - 内部実装の詳細
+        - 将来の拡張案
+    validations:
+      required: false

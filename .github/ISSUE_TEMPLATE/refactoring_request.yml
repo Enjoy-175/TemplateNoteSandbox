@@ -1,0 +1,41 @@
+name: 改善・リファクタ
+description: 改善・リファクタはこちら
+labels: ["refactoring"]
+title: "[REFAC] "
+body:
+  - type: textarea
+    id: background
+    attributes:
+      label: 背景
+      description: 課題の経緯や前提を記載してください。
+    validations:
+      required: true
+  - type: textarea
+    id: merit
+    attributes:
+      label: メリット
+      description: 改善することでどのようなメリットがあるのかを記載してください。
+    validations:
+      required: true
+  - type: textarea
+    id: goal
+    attributes:
+      label: 目的・ゴール
+      description: このissueで取り組むことを記載してください。
+    validations:
+      required: true
+  - type: textarea
+    id: non-goal
+    attributes:
+      label: 非目的・対象外事項
+      description: 今回の実装内で達成しないことや対象外とすることを記述してください
+      placeholder: 例）〜の改善は対象外とします
+    validations:
+      required: false
+  - type: textarea
+    id: goal-criteria
+    attributes:
+      label: 達成基準
+      description: この改善が成功したと判断するための基準を記述してください。
+    validations:
+      required: true

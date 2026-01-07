@@ -1,0 +1,18 @@
+blank_issues_enabled: false
+# Issue作成時のテンプレート設定
+defaults:
+  - template: "bug_report.yml"
+    name: ":bug: バグ報告"
+    about: "バグを報告する"
+  - template: "feature_request.yml"
+    name: ":bulb: 機能リクエスト"
+    about: "新機能のアイデア提案はこちら"
+  - template: "refactoring_request.yml"
+    name: ":rocket: 改善・リファクタ"
+    about: "改善・リファクタはこちら"
+  - template: "free_descritption.yml"
+    name: ":memo: 自由記述"
+    about: "自由な形式でIssueを作成します"
+  - template: "document-request.yml"
+    name: ":page_facing_up: ドキュメント要望"
+    about: "ドキュメントの作成・更新要望はこちら"

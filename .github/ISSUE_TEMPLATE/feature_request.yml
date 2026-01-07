@@ -1,0 +1,53 @@
+name: 💡 機能リクエスト
+description: 新機能のアイデア提案はこちら
+labels: ["enhancement"]
+title: "[FEAT] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        機能の提案ありがとうございます。以下の情報を記入してください。
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 関連する問題
+      description: この機能リクエストに関連する問題を説明してください
+      placeholder: 例）〜の操作が面倒です
+    validations:
+      required: true
+
+  - type: textarea
+    id: goal-vision
+    attributes:
+      label: 目的・ビジョン
+      description: この機能が実現することでどのようなことを達成したいかを記述してください
+      placeholder: 例）〜の操作が自動化されます
+    validations:
+      required: true
+
+  - type: textarea
+    id: non-goal
+    attributes:
+      label: 非目的・対象外事項
+      description: 今回の実装内で達成しないことや対象外とすることを記述してください
+      placeholder: 例）〜の操作改善は対象外とします
+    validations:
+      required: false
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: 提案する解決策
+      description: 考えられる解決策を説明してください
+    validations:
+      required: true
+
+  - type: textarea
+    id: goal-criteria
+    attributes:
+      label: 達成基準
+      description: この機能が成功したと判断するための基準を記述してください
+      placeholder: 例）〜の操作で値が自動的に設定されることを確認できる
+    validations:
+      required: true
